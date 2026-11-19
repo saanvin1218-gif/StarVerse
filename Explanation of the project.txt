@@ -1,0 +1,121 @@
+CIRCLE OF NUMBERS
+The Mathematics of String Art
+
+1. What is my project?
+
+My project is called **Circle of Numbers**. It demonstrates how mathematics and computer programming can work together to create beautiful geometric patterns using straight lines.
+
+The project uses multiplication, geometry, and mathematical calculations to create a design that looks like string art.
+
+2. How does my project work?
+
+Step 1: Creating a circle
+
+First, the program places equally spaced dots around a circle. In my animated version, the default number of points is 240.
+
+Step 2: Connecting the dots
+
+The program uses a multiplication rule to decide which dots to connect.
+
+For example, when the multiplier is 3:
+
+- Point 1 connects to point 3.
+- Point 2 connects to point 6.
+- Point 3 connects to point 9.
+- Point 4 connects to point 12.
+
+The program continues this process to create a complex geometric pattern.
+
+Step 3: Creating mathematical art
+
+When many straight lines are connected according to the multiplication rule, they form beautiful patterns inside the circle.
+
+Step 4: Animation
+
+In the animated version, the lines appear one by one. This allows us to watch how the pattern develops instead of seeing only the final design.
+
+3. Important mathematical concepts
+
+A. Multiplication
+
+Multiplication determines which points are connected. Changing the multiplier can create different patterns.
+
+B. Modulo operator (%)
+
+The modulo operator gives the remainder after division.
+
+For example:
+
+15 % 12 = 3
+
+In my project, the modulo operator helps keep the destination points within the circle's valid range. When the connections reach the end of the circle, they can wrap around to the beginning.
+
+C. X and Y coordinates
+
+The program uses X and Y coordinates to determine the position of each point on the screen. These coordinates help the computer know where to draw the dots and lines.
+
+D. Geometry
+
+The points are arranged around a circle, and straight lines connect them to form geometric designs.
+
+4. Python libraries and functions used
+
+1. Tkinter
+
+Tkinter is a Python library used to create the application's window and graphical interface. It helps me create the drawing area, buttons, and sliders.
+
+2. Math module
+
+The math module helps calculate the positions of points around the circle using mathematical functions such as sine and cosine.
+
+3. root.after()
+
+The `root.after()` function schedules the next animation step after a short delay. This makes the lines appear gradually and creates the animation effect.
+
+5. Features of my project
+
+- Animated drawing of the pattern.
+- Start button to begin the animation.
+- Pause and resume functionality.
+- Reset option to restart the drawing.
+- Speed control to adjust the animation.
+- Multiplier control to explore different patterns.
+- Point-count control to change the number of points.
+- Colour options to customise the design.
+- Option to save the artwork.
+
+6. What did I learn from this project?
+
+Through this project, I learned that mathematics is not limited to solving equations in textbooks. Mathematical concepts can also be used creatively through programming.
+
+I learned how multiplication, coordinates, geometry, and basic Python programming can work together to produce interesting visual patterns.
+
+I also learned how to use Python's Tkinter library to create an interactive graphical application.
+
+7. How to explain my project to my teacher
+
+Good morning, ma'am.
+
+My project is called Circle of Numbers. It shows how we can use multiplication and computer programming to create mathematical art.
+
+First, the program places equally spaced points around a circle. Then it uses a multiplication rule to decide which points to connect. The computer draws straight lines between these points, and together they create a complex geometric pattern.
+
+I used Python to build this project. The Tkinter library helps create the application window and drawing area, while mathematical calculations help position the points.
+
+I also made an animated version where we can watch the lines appear one by one. We can change the multiplier and the number of points to explore different patterns.
+
+Through this project, I learned that mathematics and programming can work together to create something creative and interesting.
+
+Thank you.
+
+8. How to Explain My Project to Parents and Visitors
+
+Hello! Welcome to my project, Circle of Numbers! It's an interactive mathematical art project created using Python.
+
+The interesting part is how it works. Imagine a circle filled with equally spaced points. My program uses a multiplication rule to decide which points to connect. For example, with a multiplier of 3, point 1 connects to point 3, point 2 to point 6, and so on. When hundreds of these straight lines connect, they create a beautiful, intricate geometric pattern!
+
+But here's the cool part: instead of showing only the final design, my project animates the drawing, so you can watch the pattern form line by line. You can also change the multiplier, number of points, speed, and colours to explore different results.
+
+I created this project to show how simple mathematical rules can produce complex designs when combined with programming. It's a way of turning mathematics into digital art!
+
+Would you like to see how changing the multiplier changes the pattern?
